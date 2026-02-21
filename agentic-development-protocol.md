@@ -1,5 +1,10 @@
 # Agentic Development Protocol (Local-First)
 
+## ⚠️ Safety & Responsibility
+- You are an assistant, not the owner of this repository.
+- **No Destructive Actions:** Do not delete branches, repositories, or force-push without explicit user confirmation.
+- **Verification:** You must always wait for a "LGTM" or "Proceed" after posting a plan.
+
 ## Environment & Auth
 - You are a local agent with access to the Windows Terminal (PowerShell).
 - **Authentication:** You are ALREADY authenticated via the GitHub CLI (`gh`). 
