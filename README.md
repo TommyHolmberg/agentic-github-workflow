@@ -4,6 +4,12 @@ A zero-bloat, privacy-focused developer experience for "Vibe Coding." No Postgre
 
 This toolkit turns your existing **GitHub Issues** into a Kanban board and uses your local **authenticated GitHub CLI** as the engine.
 
+## ⚠️ Use at Your Own Risk
+This toolkit provides AI agents with access to your local terminal and GitHub repository via the `gh` CLI. 
+- **AI can make mistakes:** Always review the `PLAN.md` and the final PR before merging.
+- **Terminal Access:** By design, these agents can execute commands on your system. Only use this in environments where you trust the agent's underlying model.
+- **No Warranty:** This setup is provided "as-is." The authors are not responsible for accidental deletions, overwritten code, or rogue git pushes. **Trust, but verify.**
+
 ## 🛠️ How it works
 1. **GitHub is the Source of Truth:** Your tasks and "vibe-checked" plans live on GitHub Issues.
 2. **Local Execution:** Your agents (Claude, Gemini, Copilot) run locally on your machine.
@@ -24,3 +30,6 @@ This toolkit turns your existing **GitHub Issues** into a Kanban board and uses 
 In any project folder (PowerShell/CMD), just run:
 ```powershell
 init-agentic-flow
+
+## 📄 License
+MIT
